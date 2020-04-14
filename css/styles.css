@@ -1,0 +1,149 @@
+html {
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
+  color: rgb(98, 98, 98);
+}
+
+*, 
+*::before, 
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+p {
+  margin: 0;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.menu {
+  padding-top: 72px;
+  padding-bottom: 98px;
+  text-align: center;
+  font-size: 0;
+}
+
+.menu li:nth-of-type(1) {
+  margin-right: 120px;
+}
+
+.menu li:nth-of-type(2) {
+  margin-right: 100px;
+}
+
+.menu li:nth-of-type(3) {
+  margin-right: 104px;
+}
+
+.menu-item {
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.menu-item a:hover,
+  .menu-item a:focus {
+  text-decoration-line: none;
+  transition: 0.5s ease;
+  color: #03a9f4;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: #626262;
+}
+
+.main {
+  margin: 0 auto;
+  width: 900px;
+  font-size: 0;
+}
+
+.card {
+  display: inline-block;
+  width: 420px;
+  margin-right: 60px;
+  padding-bottom: 130px;
+}
+
+.card:nth-of-type(2n) {
+  margin-right: 0;
+}
+
+.card:nth-last-child(-n + 3) {
+  padding-bottom: 52px;
+}
+
+.card-image {
+  display: block;
+  padding-bottom: 30px;
+  max-width: 420px;
+  height: auto;
+}
+
+.card-category {
+  padding-bottom: 32px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: 'Ubuntu', sans-serif;
+  color: rgb(180, 173, 158);
+  
+}
+
+.card-title {
+  padding-bottom: 36px;
+  font-size: 30px;
+}
+
+.card-description {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.button {
+  display: block;
+  width: 164px;
+  height: 60px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+  background: transparent;
+  border: 1px solid rgb(98, 98, 98);
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+  color: rgb(98, 98, 98);
+}
+
+.button:hover,
+.button:focus {
+  background-color: #03a9f4;
+  cursor: pointer;
+  transition: ease 1s;
+  color: #fff;
+}
+
+
